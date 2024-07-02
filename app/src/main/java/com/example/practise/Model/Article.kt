@@ -1,4 +1,4 @@
-package com.example.practise
+package com.example.practise.Model
 
 data class Article(
     val author: String,

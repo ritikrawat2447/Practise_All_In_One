@@ -1,4 +1,4 @@
-package com.example.practise
+package com.example.practise.View
 
 import android.content.Intent
 import android.os.Bundle
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
         mainBinding.newsButton.setOnClickListener{
-            val intent = Intent(this@MainActivity,NewsLayout::class.java)
+            val intent = Intent(this@MainActivity, NewsLayout::class.java)
             startActivity(intent)
         }
         setContentView(mainBinding.root)

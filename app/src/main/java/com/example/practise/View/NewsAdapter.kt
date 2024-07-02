@@ -1,14 +1,14 @@
-package com.example.practise
+package com.example.practise.View
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView.OnItemClickListener
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practise.databinding.NewsRecyclerviewBinding
+import com.example.practise.Model.Article
+import com.example.practise.R
 import com.squareup.picasso.Picasso
 
 class NewsAdapter(var articles: List<Article>, context: Context ) : RecyclerView.Adapter<NewsAdapter.myViewHolder>()  {

@@ -1,13 +1,9 @@
-package com.example.practise
+package com.example.practise.View
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.practise.databinding.ActivityNewsContentBinding
-import com.example.practise.databinding.NewsRecyclerviewBinding
 import com.squareup.picasso.Picasso
 
 class NewsContent : AppCompatActivity() {
